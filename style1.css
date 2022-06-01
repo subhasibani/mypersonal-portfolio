@@ -1,0 +1,54 @@
+*{
+    padding:0px;
+    margin: 0%;
+}
+.nav-bar{
+    background: rgba(12, 0, 12, 0.932);
+    color: white;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-right{
+     text-align: right;
+}
+ul li{
+
+    display: inline-block;
+    margin: 20px;
+
+}
+ul li a{
+    color: rgb(250, 247, 252);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    
+    padding: 5px 20px;
+
+
+}
+ul li a:hover{
+    background-color: rgba(249, 253, 253, 0.938);
+    color: rgb(17, 17, 1);
+ }
+span{
+    margin:0 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width: 700px) 
+{
+    span {
+        display: block;
+    }
+    ul li{
+        display: block;
+
+    }
+    ul {
+        display: non;
+    }
+}
